@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Aventura Login</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+        <div class="login">
+            <div class="wrap">
+                <!-- TOGGLE -->
+                <div id="toggle-wrap">
+                    <div id="toggle-terms">
+                        <div id="cross">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="terms">
+                    <H2>Somos uma empresa de Aventuras o qual fazemos trilhas por santa-catarina</H2>
+                </div>
+                <div class="recovery">
+                    <h2>Recupere sua Senha</h2>
+                    <p>Digite o endereço de <strong>email</strong> ou <strong>nome de usuário</strong> da conta e <strong>clique em Enviar</strong></p>
+                    <p>Enviaremos instruções por e-mail sobre como redefinir sua senha.</p>
+                    <form class="recovery-form" action="" method="post">
+                        <input type="text" class="input" id="user_recover" placeholder="Digite o Email ou nome do usuario">
+                        <input type="submit" class="button" value="Enviar">
+                    </form>
+                </div>
+                <div class="content">
+                    <div class="logo">
+                        <a href="Home.html"><img src="https://user-images.githubusercontent.com/65358991/170092504-132fa547-5ced-40e5-ab64-ded61518fac2.png" alt=""></a>
+                    </div>
+                    <div id="slideshow">
+                        <h2>Aventure</h2>
+                    </div>
+                </div>
+                <div class="user">
+                    <div class="form-wrap">
+                    	<div class="tabs">
+                            <h3 class="login-tab"><a class="log-in active" href="#login-tab-content"><span>Login<span></a></h3>
+                    		<h3 class="signup-tab"><a class="sign-up" href="#signup-tab-content"><span>Cadastro</span></a></h3>
+                    	</div>
+                    	<div class="tabs-content">
+                    		<div id="login-tab-content" class="active">
+                    			<form class="login-form" action="" method="post">
+                    				<input type="text" class="input" id="user_login" autocomplete="off" placeholder="Email do usuario">
+                    				<input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Senha">
+                    				<input type="checkbox" class="checkbox" checked id="Lembre-se">
+                    				<label for="remember_me">lembre</label>
+                    				<input type="submit" class="button" value="Login">
+                    			</form>
+                    			<div class="help-action">
+                    				<p><i class="fa fa-arrow-left" aria-hidden="true"></i><a class="forgot" href="#">Esqueci a Senha</a></p>
+                    			</div>
+                    		</div>
+                    		<div id="signup-tab-content">
+                    			<form class="signup-form" action="" method="post">
+                    				<input type="email" class="input" id="user_email" autocomplete="off" placeholder="Email">
+                    				<input type="text" class="input" id="user_name" autocomplete="off" placeholder="Nome completo">
+                    				<input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Senha">
+                    				<input type="submit" class="button" value="Cadastra">
+                    			</form>
+                    			<div class="help-action">
+                    				<p>Obrigado por ter escolhido nos</p>
+                    				<p><i class="fa fa-arrow-left" aria-hidden="true"></i><a class="agree" href="#">Quem somos ?</a></p>
+                    			</div>
+                    		</div>
+                    	</div>
+                	</div>
+                </div>
+            </div>
+        </div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="script.js"></script>
+
+</body>
+</html>
